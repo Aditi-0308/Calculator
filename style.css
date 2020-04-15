@@ -1,0 +1,98 @@
+html {
+    width: 100%;
+    background-color: pink;
+    color: black;
+    opacity: 0.95;
+}
+
+.general-flex {
+    display: flex;
+    display: inline-block;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.calculator {
+    height: 58vh;
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.name {
+    height: auto;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.display-container {
+    min-height: 7vh;
+    border: 4px solid   black;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.8vh;
+    vertical-align: text-bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+#display-text {
+    margin: 0.5vw;
+    margin-top: 0.4vh;
+    margin-right: 2px;
+    font-size: 4.8vh;
+    text-align: right;
+    vertical-align: text-bottom;
+}
+
+.btn {
+    height: 44vh;
+    width: 100%;
+    margin-top: 1vh;
+
+}
+
+.row {
+    height: 8vh;
+    width: 100%;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    height: 85%;
+    width: 22%;
+    display: inline-block;
+    border: 4px solid black;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: grey;
+}
+
+.zero-btn {
+    height: 85%;
+    width: 47.5%;
+    display: inline-block;
+    border: 4px solid black;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
